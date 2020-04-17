@@ -8,16 +8,51 @@
 </head>
 
 <body>
-    <div class="square"></div>
-    <script src="anime.min.js"></script>
-    <script>
-        anime({
-            targets: '.square',
-            translateX: 250,
-        });
-    </script>
+    <header>
+        <div class="menu-toggler">
+            '(...)'
+        </div>
+        <nav class="topnav">
+            <ul class="nav-list"></ul>
+            <li>
+                <a href="#about" class="nav-link"></a>
+            </li>
+            <li>
+                <a href="#services" class="nav-link"></a>
+            </li>
+            <li>
+                <a href="#portfolio" class="nav-link"></a>
+            </li>
+            <li>
+                <a href="#experience" class="nav-link"></a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link"></a>
+            </li>
+        </nav>
+        <div class="landing-text">
+            <h1>Javier Miguelez</h1>
+            <h2>UX Advocate & Designer</h2>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="profile-img"></div>
+        </div>
+    </section>
     <section>
         <h1>UXJavi's site is in the bakin'. Patience!</h1>
+        <div class="square"></div>
+        <script src="./anime.min.js"></script>
+        <script>
+            anime({
+                targets: '.square',
+                translateX: 250,
+                rotateZ: 90,
+                scale: 2,
+                loop: true,
+            });
+        </script>
     </section>
 </body>
 

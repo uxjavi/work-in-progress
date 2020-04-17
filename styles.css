@@ -16,16 +16,20 @@ section {
   height: 100vh;
   color: #fff;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background-size: 300% 400%;
   position: relative;
   animation: change 6s ease-in-out infinite;
 }
+
 .square {
   width: 30px;
   height: 30px;
   background: #fff;
-  position: relative;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
 }
+
 h1 {
   font-size: 6rem;
   letter-spacing: 0.5px;
